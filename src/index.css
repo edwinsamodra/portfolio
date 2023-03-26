@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #272727;
+}
+
+.button-readmore {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 20%;
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.orange-underline {
+    font-weight: bold;
+    color: tomato;
+    text-decoration-color: tomato;
+}
+
+.form-contact-us > * {
+    font-family: 'Switzer', sans-serif;
+
+}
+
+label {
+    color: #fff;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.submit {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 10rem;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 50px;
+    height: 35px;
+    padding: 10px;
+    background-color: #000;
+    font-family: 'Switzer', sans-serif;
+}
+
+@media only screen and (min-width: 320px) {
+    #photo {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 13rem;
+    }
+    
+    .button-readmore {
+        visibility: hidden;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 5%;
+        place-items: center;
+        min-height: 100vh;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .text-name {
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .text-desc {
+        font-family: 'Roboto Serif', serif;
+        color: #fff;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    .grid-photo {
+        float: left;
+    }
+    
+    .grid-desc {
+        padding-left: 10%;
+        padding-right: 10%;
+        float: left;
+        width: 100%
+    }
+
+    .flex {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        min-height: 100vh;
+    }
+
+    .title-section-git {
+        color: #fff;
+        font-family: 'Switzer', sans-serif;
+        margin: 10px 21% 10px 10%;
+        padding-top: 20%;
+    }
+
+    .title-section-of {
+        color: #fff;
+        font-family: 'Switzer', sans-serif;
+        margin: 10px 21% 10px 12%;
+    }
+
+    .content-section {
+        justify-content:space-around;
+    }
+
+    .content-section p {
+        margin: 10px 12% 10px 12%;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: large;
+        font-family: 'Switzer', sans-serif;
+    }
+
+    .form-contact-us {
+        margin: 3% 10% 0px 10%;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    #photo {
+        border-radius: 50%;
+        object-fit: cover;
+        width: 18rem;
+        margin-left: 5rem;
+    }
+
+    .button-readmore {
+        visibility: visible;
+    }
+
+    .text-name {
+        font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+        color: #fff;
+        font-size: 1.5vw;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .text-desc {
+        font-family: 'Switzer', sans-serif;
+        color: #fff;
+        font-size: 1.5vw;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1%;
+        place-items: center;
+        min-height: 100vh;
+    }
+    
+    .grid-photo {
+        float: left;
+        width: 70%;
+    }
+    
+    .grid-desc {
+        float: left;
+        width: 100%;
+        padding-left: 12px;
+    }
+
+    .flex {
+        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .title-section-of {
+        margin: 10px 21% 10px 21%;
+        color: #fff;
+        font-family: 'Switzer', sans-serif;
+        font-size: 2rem;
+    }
+
+    .title-section-git {
+        margin: -100px 21% 10px 21%;
+        color: #fff;
+        font-family: 'Switzer', sans-serif;
+        font-size: 2rem;
+    }
+
+    .content-section p {
+        margin: 10px 21% 10px 21%;
+        color: #fff;
+        font-family: 'Roboto Serif', serif;
+        font-size: x-large;
+        font-family: 'Switzer', sans-serif;
+    }
+
+    .form-contact-us {
+        margin: 3% 21% 0px 21%;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Edwin's Portofolio</title>
+</head>
+<body>
+    <header style="display: flex; justify-content: center;"></header>
+    <main>
+        <section id="profile">
+            <div class="grid" style="display: grid; grid-template-columns: auto auto; gap: 1%;">
+                <div class="grid-item grid-photo">
+                    <img id="photo" src="edwin.jpeg" alt="foto edwin">
+                </div>
+                <div class="grid-item grid-desc">
+                    <h2 class="text-name">Edwin  Samodra  Pratama</h2>
+                    <p class="text-desc">I am a junior full-stack developer based in Malang City with <span class="orange-underline">extraordinary curiosity</span>.<br />I enjoy working with the latest technology to make integrated and according-to-need<br />information systems. More than one year of experience creating web applications<br />using Laravel. Keep learning and never stop growing. <a class="orange-underline" href="https://github.com/edwinsamodra" target="_blank">#github</a> <a class="orange-underline" href="https://instagram.com/edwinsamodra" target="_blank">#instagram</a></p> <br>
+                    <a href="#experience" class="button-readmore">Read More</a>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <div class="flex" style="gap: 0%;">
+                <h2 class="title-section-of">OBSERVE FIRST</h2>
+                <div class="content-section">
+                    <p>I understand if this sounds hard to understand. But hold on, let me explain to you.</p> <br>
+                    <p>I've always thought of coding as a process of <span class="orange-underline">making value</span> for your company. But, as I looked back, in reality, making new software means exhausting money and time, not value. This is what I call the loop: <span class="orange-underline">observe, write, and make</span>. I am always emphasize the value of new software. I trust we can make <span class="orange-underline">valuable software</span> for your company. Because we always <span class="orange-underline">change</span> and <span class="orange-underline">adapt</span> to the problems we face with our clients.</p> <br>
+                    <p>Besides, I have a great team with <span class="orange-underline">high motivation to grow</span> and to the things right precisely. I am a leader in my team always making we have good habits and <span class="orange-underline">happy life</span>. Because life happier can make anything that we do feel <span class="orange-underline">so good</span> and satisfaction.</p> <br>
+                    <p>This website serves as a portfolio web. I hope you make the right decision to hire a vendor. I am ready if you need us, just <a href="#contact" style="text-decoration-color: tomato"><span class="orange-underline">contact us</span></a>.</p> <br>
+                    <p>Observe and analyze the problem first, then code.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="flex"style="display: flex;">
+                <h2 class="title-section-git">GET IN TOUCH</h2>
+                <div class="content-section" style="justify-content: space-around;">
+                    <div class="form-contact-us">
+                        <form action="contact.php" method="POST">
+                            <label for="first-name">First Name</label>
+                            <input class="input" type="text" id="first-name" name="firstname" placeholder="E.g. Edwin" required>
+
+                            <label for="last-name">Last Name</label>
+                            <input class="input" type="text" id="last-name" name="lastname" placeholder="E.g. Samodra" required>
+
+                            <label for="email">Email</label>
+                            <input class="input" type="email" id="email" name="email" placeholder="E.g. your_name@mail.com" required>
+
+                            <label for="company">Company</label>
+                            <input class="input" type="text" id="company" name="company" placeholder="E.g. PT Ruang Raya Indonesia (Ruangguru)" required>
+
+                            <label for="message">Message</label>
+                            <textarea class="input" id="message" name="message" placeholder="E.g. I am interested to hire your team" style="height:200px"></textarea>
+                            
+                            <input class="submit" type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer style="text-align: center; color: white;">
+        <div class="foot">
+            Copyright 2023 (c) Edwin Samodra Pratama
+        </div>
+    </footer>
+</body>
+</html>
